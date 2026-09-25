@@ -1,0 +1,14 @@
+{
+  "name": "divinity",
+  "description": "Divinity: evidence-first review skills for app builders.",
+  "owner": {
+    "name": "Vishal Mandhane"
+  },
+  "plugins": [
+    {
+      "name": "divinity",
+      "source": "./",
+      "description": "Five evidence-first review skills for app builders: security audit, product review, UI/UX review, store screenshots, and Lottie animation ideas."
+    }
+  ]
+}

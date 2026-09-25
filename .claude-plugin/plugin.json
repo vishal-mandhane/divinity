@@ -1,0 +1,10 @@
+{
+  "name": "divinity",
+  "version": "1.0.0",
+  "description": "Five evidence-first review skills for app builders: security audit, product review, UI/UX review, store screenshots, and Lottie animation ideas.",
+  "author": {
+    "name": "Vishal Mandhane"
+  },
+  "license": "MIT",
+  "keywords": ["security", "product", "ux", "accessibility", "app-store", "flutter", "firebase", "lottie"]
+}
