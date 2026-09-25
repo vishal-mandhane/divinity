@@ -13,7 +13,7 @@ for general use.
 | `product-review` | Reviews the app as a product: every screen scored 1–5, every flow counted, and every hardcoded product decision (time limits, caps, gates) listed with a recommendation. Read-only. |
 | `ui-ux-review` | Checks a screen against real standards: WCAG contrast, touch target sizes, text scaling, dark mode, reduced motion, and the loading / empty / error / success states. |
 | `store-screenshots` | Plans and exports Google Play and App Store screenshots at legal sizes, with captions that only quote text the app really contains. |
-| `lottie-animations` | Suggests specific, non-generic animations for a Flutter screen — loaders, empty states, success moments — with the code to wire them in. |
+| `lottie-animations` | Suggests specific, non-generic animations for a Flutter screen (loaders, empty states, success moments), with the code to wire them in. |
 
 ## Install
 
@@ -50,7 +50,7 @@ If you installed the plugin, the skills are namespaced, e.g. `divinity:security-
 
 - `security-audit` and `product-review` do not change your code while auditing.
   Fixes come after, as a separate step you approve.
-- `product-review` reads code only — never your production database.
+- `product-review` reads code only. It never touches your production database.
 - None of them send your code anywhere.
 
 ## Standards and dates
@@ -65,6 +65,16 @@ the console wording first.
 Issues and pull requests are welcome. A good change fixes a wrong fact (with a
 source), removes a false positive, or adds a check that caught a real bug.
 
+## Star History
+
+<a href="https://www.star-history.com/#vishal-mandhane/divinity&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=vishal-mandhane/divinity&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=vishal-mandhane/divinity&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=vishal-mandhane/divinity&type=Date" />
+  </picture>
+</a>
+
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).
